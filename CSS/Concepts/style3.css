@@ -1,0 +1,12 @@
+h1{
+    color: rgba(0, 0, 0, 0.5);
+    border: 2px solid rgb(0, 0, 0);
+}
+
+p{
+    color: #be3113;
+}
+
+span{
+    color: hsl(150, 50%, 50%);
+}
