@@ -121,3 +121,53 @@
     padding: 20px;
     color: #465b52;
 }
+
+#features{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 30px 0px;
+}
+
+#features div{
+    box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.03);
+    /* border: 1px solid #cce7d0; */
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    transition: box-shadow 0.3s;
+    text-align: center;
+    padding-top: 15px;
+}
+
+#features div h6{
+    font-size: 15px;
+    font-weight:550;
+    padding: 40px;
+    border-radius: 4px;
+    display: inline-block;
+    line-height: 1;
+}
+
+#features div:hover{
+    box-shadow: 10px 10px 54px rgba(0, 0, 0, 0.1);
+}
+
+.freeshipping h6{
+    color: #89d8e1;   
+}
+.onlineorder h6{
+    color: #e189bc;
+}
+.savemoney h6{
+    color: #b8dd7f;
+}
+.promotions h6{
+    color: #89bfe1;
+}
+.happysell h6{
+    color: #a28fda;
+}
+.support h6{
+    color: #e2a789;
+}
